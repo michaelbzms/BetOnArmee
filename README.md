@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# BetOnArmee
 
-You can use the [editor on GitHub](https://github.com/michaelbzms/BetOnArmee/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### A betting System implemented in C++ as a final project for the class of Object Oriented Programming.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The system's information (registered users, bet hierarchy, ongoing bets, history, profit) is saved on disk files. The program can be run each time a registered user (who must log in) or a guest desires to explore (for everyone), bet on (for Punters) or modify (for Traders and Directors) the system's bet hierarchy, a tree of categories and subcategories leading to events, that Punters can bet on for a designated (by the Traders) stake.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/michaelbzms/BetOnArmee/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The assignment's full description as well as a readme for our implementation can be found (in Greek) in `OOP2016.pdf` and `README.pdf` respectively.
